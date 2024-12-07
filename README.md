@@ -1,0 +1,2 @@
+# EcoinAvatarStore
+EcoinAvatarStore for avideo
