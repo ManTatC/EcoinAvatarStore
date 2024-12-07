@@ -1,0 +1,98 @@
+/* ecoinavatarstore.css */
+
+/* 商城页面样式 */
+.avatar-store {
+    padding: 20px;
+}
+
+.avatar-store h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.avatar-frames {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.avatar-frame {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.avatar-frame img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.avatar-frame h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.avatar-frame p {
+    margin: 5px 0;
+}
+
+.avatar-frame button {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.avatar-frame button:hover {
+    background-color: #218838;
+}
+
+/* 用户头像框样式 */
+.user-avatar-frame {
+    margin-top: 10px;
+}
+
+.user-avatar-frame img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #28a745;
+}
+
+/* 新手指导清单样式 */
+.beginner-guide {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.beginner-guide h3 {
+    margin-top: 0;
+}
+
+.beginner-guide ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.beginner-guide ul li {
+    margin-bottom: 10px;
+}
+
+.beginner-guide ul li strong {
+    color: #28a745;
+}
